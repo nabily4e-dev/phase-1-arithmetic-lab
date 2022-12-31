@@ -5,10 +5,10 @@ const expect = chai.expect;
 
 describe('index.js', function() {
   describe('multiply', function() {
-    it("is an equation whose multiplied results will equal 62", function() {
+    it("is an equation whose multiplied results will equal 63", function() {
       expect(num1).to.be.a('number')
       expect(num2).to.be.a('number')
-      expect(multiply).to.eq(62)
+      expect(multiply).to.eq(63)
     });
   });
   describe('random', function() {
@@ -25,8 +25,8 @@ describe('index.js', function() {
     });
   });
   describe('max', function() {
-    it("will return 20 as the highest number in the set", function() {
-      expect(max).to.eq(20)
+    it("will return 15 as the highest number in the set", function() {
+      expect(max).to.eq(15)
     });
   });
 });
